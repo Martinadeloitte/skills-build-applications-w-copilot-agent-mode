@@ -1,6 +1,6 @@
 {
-  "name": "octofit-trackerfrontend",
-  "version": "0.0.0",
+  "name": "octofit-tracker-frontend",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
