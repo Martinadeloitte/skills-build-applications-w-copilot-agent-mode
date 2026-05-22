@@ -1,0 +1,45 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.activity-card {
+  border-left: 4px solid #0d6efd;
+}
+
+.leaderboard-item {
+  transition: background-color 0.2s;
+}
+
+.leaderboard-item:hover {
+  background-color: #f8f9fa;
+}
+
+.badge-activity {
+  font-size: 0.85rem;
+  padding: 0.4em 0.6em;
+}
+
+.stats-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.container {
+  flex: 1;
+}
